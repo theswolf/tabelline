@@ -17,7 +17,7 @@ define([
     numQuestion: '',
     
     render: function() {
-    	var compiledTemplate = _.template($("#question_template").html(), {domanda: "3 minutes - 40 questions"});
+    	var compiledTemplate = _.template($("#question_template").html(), {domanda: "3 minuti - 40 domande"});
     	this.$el.html(compiledTemplate);
     	this.$el.trigger('create');
     	this.numQuestion = Approuter.numQuestion;
