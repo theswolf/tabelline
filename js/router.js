@@ -39,7 +39,7 @@ define([
 
     home: function() {
 
-           var header = new Header({el:"#header_container",evn:"gameStarted",label:"Start"});
+           var header = new Header({el:"#header_container",evn:"gameStarted",label:"Inizia"});
            var question = new QuestionView({el:"#question"});
            var pbar = new ProgressBar({el:"#progressbar"});
            var board = new Board({el:"#board"});
@@ -80,7 +80,7 @@ define([
         },
     
     score: function() {
-    	 	var header = new Header({el:"#header_score_container",evn:"gameBack",label:"New Game"});
+    	 	var header = new Header({el:"#header_score_container",evn:"gameBack",label:"Gioca ancora"});
     		var score = new ScoreView({el:"#scoreboard"});
     		
         	$.mobile.changePage( "#score" ,{ reverse: false, changeHash: false } );
