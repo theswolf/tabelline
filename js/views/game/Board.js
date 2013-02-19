@@ -113,7 +113,7 @@ define([
     colorize: function(div,color) {
     	var nativecolor = $(div).css('background-color');
     	 $(div).css('background-color',color);
-    	 setTimeout(function() { $(div).css('background-color',nativecolor); },100);
+    	 setTimeout(function() { $(div).css('background-color',nativecolor); },200);
     }
 
     
