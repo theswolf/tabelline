@@ -25,6 +25,8 @@ define([
      Label = {};
      Label.time = "3 minuti - 40 domande";
      Label.playAgain = "Gioca ancora";
+     Label.start = "Inizia";
+     Label.appname = "Tabelline";
      
 	var Router = Backbone.Router.extend( { 
     initialize: function() {
@@ -43,7 +45,7 @@ define([
 
     home: function() {
 
-           var header = new Header({el:"#header_container",evn:"gameStarted",label:"Inizia"});
+           var header = new Header({el:"#header_container",evn:"gameStarted",label:Label.start});
            var question = new QuestionView({el:"#question"});
            var pbar = new ProgressBar({el:"#progressbar"});
            var board = new Board({el:"#board"});
