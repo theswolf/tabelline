@@ -23,11 +23,11 @@ define([
      Approuter.count = 0;
      
      Label = {};
-     Label.time = "3 minuti - 40 domande";
-     Label.playAgain = "Gioca ancora";
-     Label.start = "Inizia";
-     Label.appname = "Tabelline";
-     Label.finished = "Finito...";
+     Label.time = "3 minutes - 40 question";
+     Label.playAgain = "Play again";
+     Label.start = "Start";
+     Label.appname = "Times Table";
+     Label.finished = "Finished...";
      
 	var Router = Backbone.Router.extend( { 
     initialize: function() {
