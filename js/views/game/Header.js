@@ -25,7 +25,7 @@ define([
 
     render: function() {
      // $( document ).on( "mobileinit",function() {
-      var template = _.template( $("#header_template").html(),{value: this.label} );
+      var template = _.template( $("#header_template").html(),{value: this.label, appname: Label.appname} );
       this.$el.html( template );
       this.$el.trigger('create');
 

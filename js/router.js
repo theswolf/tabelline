@@ -27,6 +27,7 @@ define([
      Label.playAgain = "Gioca ancora";
      Label.start = "Inizia";
      Label.appname = "Tabelline";
+     Label.finished = "Finito...";
      
 	var Router = Backbone.Router.extend( { 
     initialize: function() {

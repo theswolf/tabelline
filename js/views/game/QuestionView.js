@@ -38,7 +38,7 @@ define([
         	
     	}
     	else {
-    		questiontext = 'finished';
+    		questiontext = Label.finished;
     	}
     	Approuter.count++;
     	var compiledTemplate = _.template($("#question_template").html(), {domanda: questiontext});
