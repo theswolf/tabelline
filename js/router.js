@@ -22,6 +22,10 @@ define([
      Approuter.numQuestion = 40;
      Approuter.count = 0;
      
+     Label = {};
+     Label.time = "3 minuti - 40 domande";
+     Label.playAgain = "Gioca ancora";
+     
 	var Router = Backbone.Router.extend( { 
     initialize: function() {
       Backbone.history.start();
@@ -80,7 +84,7 @@ define([
         },
     
     score: function() {
-    	 	var header = new Header({el:"#header_score_container",evn:"gameBack",label:"Gioca ancora"});
+    	 	var header = new Header({el:"#header_score_container",evn:"gameBack",label:Label.playAgain});
     		var score = new ScoreView({el:"#scoreboard"});
     		
         	$.mobile.changePage( "#score" ,{ reverse: false, changeHash: false } );
