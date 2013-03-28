@@ -1,0 +1,20 @@
+<svg width="320" height="480" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <pattern id="bg" patternUnits="userSpaceOnUse" x="0" y="0" width="32" height="32" viewBox="0 0 32 32">
+   <rect width="32" height="32" fill="#204a87" id="svg_1"/>
+   <circle cx="8" cy="8" r="8" fill="#729fcf" id="svg_2"/>
+   <circle cx="24" cy="24" r="8" fill="#3465a4" id="svg_3"/>
+  </pattern>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_4">
+   <rect x="0" y="0" width="100%" height="100%" fill="url(#bg)" stroke-width="2" id="svg_5" stroke="black"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 2</title>
+  <text fill="#005fbf" stroke="#ffffff" stroke-width="2" stroke-dasharray="null" stroke-linecap="round" x="50%" y="50%" id="svg_6" font-size="43" font-family="Fantasy" text-anchor="middle" xml:space="preserve" opacity="0.75">09Core games</text>
+  <text font-weight="normal" xml:space="preserve" text-anchor="middle" font-family="Fantasy" font-size="32" id="svg_8" y="70%" x="50%" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke="#000000" fill="#ffffff">loading...</text>
+ </g>
+</svg>
